@@ -1,0 +1,93 @@
+nav{
+  background-color:rgba(221,160,221,.9);
+  padding: 10px 60px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+nav .logo a{
+  font-family:Brush Script MT;
+  text-decoration: none;
+  color: black;
+  font-size: 55px;
+  font-weight: 400;
+}
+nav ul.nav-bar{
+  
+  display: flex;
+  align-items: center;
+  list-style: none;
+  /*padding: 10px;*/
+  padding-bottom: 10px;
+  padding-right: 70px;
+}
+
+nav li.link{
+  
+  margin-left: 7px;
+  border-radius: 15px;
+  height: 30px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+nav ul.nav-bar li.link a.nav {
+  font-family:Brush Script MT;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+nav ul.nav-bar li.link:hover{
+  /*background: paleturquoise;*/
+  background:rgba(175,238,238,.6);
+  box-shadow: 0 0 15px grey;
+
+}
+/*nav ul.nav-bar li.link a:hover{
+  background: white;
+  color: black;
+
+}*/
+
+
+ul.dp-menu{
+  list-style: none;
+}
+.dp-menu {
+  background-color:lavenderblush; 
+}
+ul.nav-bar ul.dp-menu{
+  position: absolute;
+  display: none;
+  width: 83px;
+  /*background-color: paleturquoise;*/
+  background:rgba(175,238,238,.8);
+  /*padding-top: 5px;*/
+  border-radius: 10px;
+
+}
+ul.nav-bar ul.dp-menu li.drop{
+  display: block;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+ul.nav-bar li:hover ul.dp-menu{
+  display: block;
+}
+ul.nav-bar ul.dp-menu li.drop a.dp{
+  border-radius: 3px;
+  padding: 0 8px 0 15px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+ul.nav-bar ul.dp-menu li.drop:hover{
+  background-color:lavenderblush;
+  cursor: pointer;
+
+
+}
